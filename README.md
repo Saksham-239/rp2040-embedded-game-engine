@@ -12,6 +12,22 @@ It currently ships with two complete game implementations that showcase the fram
 
 ---
 
+## Media & Demonstration Gallery
+
+### System Setup
+
+| Real-Life Hardware Breadboard Setup | Virtual Wokwi Simulator Wiring Diagram |
+| :---: | :---: |
+| ![Physical Hardware](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/hardware_setup.jpg) | ![Virtual Simulator](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_diagram.png) |
+
+### In-Game Screenshots
+
+| Game Start Menu | Active Gameplay | Game Over Screen |
+| :---: | :---: | :---: |
+| ![Start Menu](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_menu.png) | ![Gameplay](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameplay.png) | ![Game Over](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameover.png) |
+
+---
+
 ## Technical Architecture
 
 The architecture decouples the physical hardware layer from the high-level game logic using an abstract driver model.
@@ -69,13 +85,7 @@ rp2040-embedded-game-engine/
 
 ## Wokwi Simulation
 
-Both games are configured for browser-based simulation via Wokwi. This allows quick verification of the FSM states, custom OLED layouts, and active-low interrupt routines without physical hardware.
-
-### Simulation Screenshots
-
-| Start Menu | Gameplay | Game Over Screen |
-| :---: | :---: | :---: |
-| ![Start Menu](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_menu.png) | ![Gameplay](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameplay.png) | ![Game Over](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameover.png) |
+Both games are configured for browser-based simulation via Wokwi. This allows quick verification of the FSM states, custom OLED layouts, and active-low interrupt routines without physical hardware. Refer to the game subdirectories for simulator files (`diagram.json` and `wokwi.toml`).
 
 ---
 

@@ -46,3 +46,14 @@ The RP2040 internal pull-ups are enabled programmatically (see `common/input/inp
 2. **I2C Hookup**: Connect SDA and SCL of the OLED display to GP4 and GP5 respectively. Confirm that the display VCC is powered by the Pico's 3.3V supply (Pin 36), and NOT the 5V VBUS pin, to prevent damage to the OLED controller.
 3. **Buttons Connection**: Tie one pin of all four buttons to a common GND line. Connect the remaining pin of each button to GP2, GP3, GP1, and GP0 respectively.
 4. **Baud Rate Stability**: The I2C interface is configured at **40 kHz** inside `common/display/display_ssd1306.c`. This slower speed provides noise resistance and stable signal propagation over long jumper wires without requiring external pull-ups.
+
+---
+
+## Media Reference
+
+### Real-Life Hardware Assembly
+![Physical Hardware Setup](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/hardware_setup.jpg)
+
+### Wokwi Wiring Diagram
+![Wokwi Schematic Diagram](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_diagram.png)
+
