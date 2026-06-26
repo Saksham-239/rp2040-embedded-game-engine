@@ -86,6 +86,17 @@ Detailed schematics can be found in the [Hardware Wiring Guide](hardware/README.
 * **Display**: SSD1306 1.3" OLED panel connected to Pico **GP4 (SDA)** and **GP5 (SCL)** via I2C0.
 * **Controls**: Four tactile buttons connected to GPIO pins **GP0 (Right)**, **GP1 (Left)**, **GP2 (Up)**, and **GP3 (Down)**. Buttons use internal active-low pull-up configs.
 
+## Pre-compiled Binaries (Quick Start)
+
+If you have a physical RP2040 board and want to run the games immediately without setting up the compiler toolchain, you can download the pre-compiled `.uf2` binaries directly from the latest [GitHub Release](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases):
+
+* 🚀 **[Download snake.uf2](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/latest/download/snake.uf2)**
+* 🚀 **[Download paradox-drift.uf2](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/latest/download/paradox-drift.uf2)**
+
+#### Flashing Guide
+1. Connect your Raspberry Pi Pico to your PC while holding the **BOOTSEL** button. The board will mount as a USB storage drive named `RPI-RP2`.
+2. Drag and drop the downloaded `.uf2` file onto the drive. The board will automatically flash, reboot, and launch the game.
+
 ---
 
 ## Build & Flash Instructions
