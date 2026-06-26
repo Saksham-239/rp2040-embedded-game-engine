@@ -63,3 +63,10 @@ You can simulate this module directly in your browser using Wokwi:
 1. Compile the workspace.
 2. Open `diagram.json` inside this directory using VS Code with the **Wokwi** extension.
 3. Click **Start Simulation** to verify game loop mechanics, graphics drawing, and button debounce routines in real-time.
+
+### Simulation Screenshots
+
+| Start Menu | Active Gameplay |
+| :---: | :---: |
+| ![Start Menu](../images/wokwi_menu.png) | ![Gameplay](../images/wokwi_gameplay.png) |
+

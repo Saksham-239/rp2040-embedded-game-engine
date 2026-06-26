@@ -67,6 +67,18 @@ rp2040-embedded-game-engine/
 
 ---
 
+## Wokwi Simulation
+
+Both games are configured for browser-based simulation via Wokwi. This allows quick verification of the FSM states, custom OLED layouts, and active-low interrupt routines without physical hardware.
+
+### Simulation Screenshots
+
+| Start Menu | Gameplay | Game Over Screen |
+| :---: | :---: | :---: |
+| ![Start Menu](images/wokwi_menu.png) | ![Gameplay](images/wokwi_gameplay.png) | ![Game Over](images/wokwi_gameover.png) |
+
+---
+
 ## Hardware Configuration
 
 Detailed schematics can be found in the [Hardware Wiring Guide](hardware/README.md).
