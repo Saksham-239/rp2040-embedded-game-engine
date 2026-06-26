@@ -119,7 +119,7 @@ Detailed schematics can be found in the [Hardware Wiring Guide](hardware/README.
 If you have a physical RP2040 board and want to run the games immediately without setting up the compiler toolchain, you can download the pre-compiled `.uf2` binaries directly from the latest [GitHub Release](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases):
 
 * 🚀 **[Download snake.uf2](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/latest/download/snake.uf2)**
-* 🚀 **[Download paradox-drift.uf2](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/latest/download/paradox-drift.uf2)**
+* 🚀 **[Download paradox-drift.uf2 (my_project.uf2)](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/latest/download/my_project.uf2)**
 
 #### Flashing Guide
 1. Connect your Raspberry Pi Pico to your PC while holding the **BOOTSEL** button. The board will mount as a USB storage drive named `RPI-RP2`.
