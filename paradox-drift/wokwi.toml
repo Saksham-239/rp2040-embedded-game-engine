@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/snake.uf2"
+elf = "build/snake.elf"
