@@ -54,3 +54,10 @@ You can simulate this module directly in your browser using the provided Wokwi s
 | :---: | :---: | :---: |
 | ![Start Menu](../images/wokwi_snake_menu.png) | ![Gameplay](../images/wokwi_snake_gameplay.png) | ![Game Over](../images/wokwi_snake_gameover.png) |
 
+### Physical Hardware Screenshots (IRL)
+
+| Gameplay | Game Over (Normal) | Game Over (Alternative) |
+| :---: | :---: | :---: |
+| ![Gameplay](../images/hardware_gameplay_snake.png) | ![Game Over](../images/hardware_gameover_snake.png) | ![Game Over Alt](../images/hardware_gameover_snake_alt.png) |
+
+

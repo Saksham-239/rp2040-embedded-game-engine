@@ -59,11 +59,15 @@ The RP2040 internal pull-ups are enabled programmatically (see `common/input/inp
 
 ### Physical Hardware Demos (IRL)
 
-| Snake Gameplay | Snake Game Over (Normal) | Snake Game Over (Alternative) |
+#### Snake Game
+| Gameplay | Game Over (Normal) | Game Over (Alternative) |
 | :---: | :---: | :---: |
 | ![Snake Gameplay](../images/hardware_gameplay_snake.png) | ![Snake Game Over](../images/hardware_gameover_snake.png) | ![Snake Game Over Alt](../images/hardware_gameover_snake_alt.png) |
 
-> [!NOTE]
-> Physical hardware demonstrations for Paradox Drift are coming soon.
+#### Paradox Drift (Time Echo)
+| Start Menu | Active Gameplay | Game Over Screen |
+| :---: | :---: | :---: |
+| ![Paradox Drift Start Menu](../images/hardware_menu_paradox_drift.png) | ![Paradox Drift Gameplay](../images/hardware_gameplay_paradox_drift.png) | ![Paradox Drift Game Over](../images/hardware_gameover_paradox_drift.png) |
+
 
 

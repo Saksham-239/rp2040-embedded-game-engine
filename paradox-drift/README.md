@@ -70,4 +70,11 @@ You can simulate this module directly in your browser using Wokwi:
 | :---: | :---: | :---: |
 | ![Start Menu](../images/wokwi_paradox_drift_menu.png) | ![Gameplay](../images/wokwi_paradox_drift_gameplay.png) | ![Game Over](../images/wokwi_paradox_drift_gameover.png) |
 
+### Physical Hardware Screenshots (IRL)
+
+| Start Menu | Active Gameplay | Game Over Screen |
+| :---: | :---: | :---: |
+| ![Start Menu](../images/hardware_menu_paradox_drift.png) | ![Gameplay](../images/hardware_gameplay_paradox_drift.png) | ![Game Over](../images/hardware_gameover_paradox_drift.png) |
+
+
 
