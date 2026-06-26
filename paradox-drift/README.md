@@ -68,5 +68,5 @@ You can simulate this module directly in your browser using Wokwi:
 
 | Start Menu | Active Gameplay |
 | :---: | :---: |
-| ![Start Menu](../images/wokwi_menu.png) | ![Gameplay](../images/wokwi_gameplay.png) |
+| ![Start Menu](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_menu.png) | ![Gameplay](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameplay.png) |
 

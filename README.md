@@ -75,7 +75,7 @@ Both games are configured for browser-based simulation via Wokwi. This allows qu
 
 | Start Menu | Gameplay | Game Over Screen |
 | :---: | :---: | :---: |
-| ![Start Menu](images/wokwi_menu.png) | ![Gameplay](images/wokwi_gameplay.png) | ![Game Over](images/wokwi_gameover.png) |
+| ![Start Menu](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_menu.png) | ![Gameplay](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameplay.png) | ![Game Over](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameover.png) |
 
 ---
 
