@@ -18,13 +18,19 @@ It currently ships with two complete game implementations that showcase the fram
 
 | Real-Life Hardware Breadboard Setup | Virtual Wokwi Simulator Wiring Diagram |
 | :---: | :---: |
-| ![Physical Hardware](images/hardware_setup.jpg) | ![Virtual Simulator](images/wokwi_diagram.png) |
+| ![Physical Hardware](images/hardware_setup.png) | ![Virtual Simulator](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_diagram.png) |
 
-### In-Game Screenshots
+### In-Game Screenshots (Wokwi Simulator)
 
 | Game Start Menu | Active Gameplay | Game Over Screen |
 | :---: | :---: | :---: |
-| ![Start Menu](images/wokwi_menu.png) | ![Gameplay](images/wokwi_gameplay.png) | ![Game Over](images/wokwi_gameover.png) |
+| ![Start Menu](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_menu.png) | ![Gameplay](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameplay.png) | ![Game Over](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_gameover.png) |
+
+### Physical Hardware Demos (IRL)
+
+| Snake Gameplay | Snake Game Over | Paradox Drift Game Over |
+| :---: | :---: | :---: |
+| ![Snake Gameplay](images/hardware_gameplay_snake.png) | ![Snake Game Over](images/hardware_gameover_snake.png) | ![Paradox Drift Game Over](images/hardware_gameover_paradox_drift.png) |
 
 ---
 

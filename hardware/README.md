@@ -52,8 +52,15 @@ The RP2040 internal pull-ups are enabled programmatically (see `common/input/inp
 ## Media Reference
 
 ### Real-Life Hardware Assembly
-![Physical Hardware Setup](../images/hardware_setup.jpg)
+![Physical Hardware Setup](../images/hardware_setup.png)
 
 ### Wokwi Wiring Diagram
-![Wokwi Schematic Diagram](../images/wokwi_diagram.png)
+![Wokwi Schematic Diagram](https://github.com/Saksham-239/rp2040-embedded-game-engine/releases/download/v1.0.0/wokwi_diagram.png)
+
+### Physical Hardware Demos (IRL)
+
+| Snake Gameplay | Snake Game Over | Paradox Drift Game Over |
+| :---: | :---: | :---: |
+| ![Snake Gameplay](../images/hardware_gameplay_snake.png) | ![Snake Game Over](../images/hardware_gameover_snake.png) | ![Paradox Drift Game Over](../images/hardware_gameover_paradox_drift.png) |
+
 
