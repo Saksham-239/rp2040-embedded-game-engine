@@ -7,7 +7,7 @@
  * Hardware unchanged: GP0-3 buttons, GP4/5 I2C OLED.
  */
 
-#include "asteroids_game.h" // ← was snake_game.h
+#include "paradox_drift.h"
 #include "display_ssd1306.h"
 #include "hardware/gpio.h"
 #include "hardware/i2c.h"
@@ -26,7 +26,7 @@ typedef enum {
 } game_state_enum;
 
 static game_state_enum current_state = STATE_INIT;
-static asteroids_state_t game_state; // ← was game_state_t
+static paradox_drift_state_t game_state;
 static volatile uint32_t tick_counter = 0;
 static volatile bool menu_blink = false;
 static uint32_t high_scores[3] = {0, 0, 0};
@@ -74,8 +74,8 @@ static int64_t timer_callback(alarm_id_t id, void *user_data) {
   tick_counter++;
 
   critical_section_enter_blocking(&state_lock);
-  if (current_state == STATE_PLAYING && !asteroids_is_game_over(&game_state)) {
-    asteroids_update(&game_state); // ← was snake_update
+  if (current_state == STATE_PLAYING && !paradox_drift_is_game_over(&game_state)) {
+    paradox_drift_update(&game_state);
   }
   critical_section_exit(&state_lock);
 
@@ -176,8 +176,8 @@ static void render_playing(void) {
   scores_saved = false;
   ssd1306_clear();
 
-  // Snapshot game state under lock (same pattern as snake)
-  asteroids_state_t local;
+  // Snapshot game state under lock
+  paradox_drift_state_t local;
   critical_section_enter_blocking(&state_lock);
   local = game_state;
   critical_section_exit(&state_lock);
@@ -256,7 +256,7 @@ static void render_game_over(void) {
 
   critical_section_enter_blocking(&state_lock);
   uint32_t final_score =
-      asteroids_get_score(&game_state); // ← was snake_get_score
+      paradox_drift_get_score(&game_state);
   critical_section_exit(&state_lock);
 
   if (!scores_saved) {
@@ -293,7 +293,7 @@ static void process_input(void) {
       if (dir == INPUT_UP) {
         critical_section_enter_blocking(&state_lock);
         current_state = STATE_PLAYING;
-        asteroids_init(&game_state); // ← was snake_init
+        paradox_drift_init(&game_state);
         tick_counter = 0;
         critical_section_exit(&state_lock);
       }
@@ -320,8 +320,7 @@ static void process_input(void) {
       }
       if (dx != 0 || dy != 0) {
         critical_section_enter_blocking(&state_lock);
-        asteroids_set_direction(&game_state, dx,
-                                dy); // ← was snake_set_direction
+        paradox_drift_set_direction(&game_state, dx, dy);
         critical_section_exit(&state_lock);
       }
       break;
@@ -348,7 +347,7 @@ static void update_display(void) {
     render_menu();
     break;
   case STATE_PLAYING:
-    if (asteroids_is_game_over(&game_state)) { // ← was snake_is_game_over
+    if (paradox_drift_is_game_over(&game_state)) {
       current_state = STATE_GAME_OVER;
       render_game_over();
     } else {

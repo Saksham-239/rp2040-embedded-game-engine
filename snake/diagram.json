@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "author": "Saksh",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "id": "pico",
+      "type": "wokwi-pi-pico",
+      "left": 80,
+      "top": 80
+    },
+    {
+      "id": "oled",
+      "type": "wokwi-ssd1306",
+      "left": 340,
+      "top": 80
+    },
+    {
+      "id": "btn_up",
+      "type": "wokwi-pushbutton",
+      "left": 360,
+      "top": 240,
+      "attrs": {
+        "key": "ArrowUp",
+        "label": "UP"
+      }
+    },
+    {
+      "id": "btn_down",
+      "type": "wokwi-pushbutton",
+      "left": 360,
+      "top": 300,
+      "attrs": {
+        "key": "ArrowDown",
+        "label": "DOWN"
+      }
+    },
+    {
+      "id": "btn_left",
+      "type": "wokwi-pushbutton",
+      "left": 310,
+      "top": 270,
+      "attrs": {
+        "key": "ArrowLeft",
+        "label": "LEFT"
+      }
+    },
+    {
+      "id": "btn_right",
+      "type": "wokwi-pushbutton",
+      "left": 410,
+      "top": 270,
+      "attrs": {
+        "key": "ArrowRight",
+        "label": "RIGHT"
+      }
+    }
+  ],
+  "connections": [
+    ["pico:3V3", "oled:VCC", "black"],
+    ["pico:GND", "oled:GND", "black"],
+    ["pico:GP4", "oled:SDA", "black"],
+    ["pico:GP5", "oled:SCL", "black"],
+    ["pico:GP2", "btn_up:1.r", "black"],
+    ["btn_up:2.r", "pico:GND", "black"],
+    ["pico:GP3", "btn_down:1.r", "black"],
+    ["btn_down:2.r", "pico:GND", "black"],
+    ["pico:GP1", "btn_left:1.r", "black"],
+    ["btn_left:2.r", "pico:GND", "black"],
+    ["pico:GP0", "btn_right:1.r", "black"],
+    ["btn_right:2.r", "pico:GND", "black"]
+  ]
+}

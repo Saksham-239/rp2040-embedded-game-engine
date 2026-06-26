@@ -1,10 +1,10 @@
-#ifndef ASTEROIDS_GAME_H
-#define ASTEROIDS_GAME_H
+#ifndef PARADOX_DRIFT_H
+#define PARADOX_DRIFT_H
 
 #include <stdint.h>
 #include <stdbool.h>
 
-// Grid matches your existing snake grid exactly
+// Grid matches the display resolution grid
 #define GAME_WIDTH          16
 #define GAME_HEIGHT         8
 
@@ -12,7 +12,7 @@
 #define MAX_ASTEROIDS       5
 #define MAX_GHOST_BULLETS   6
 
-// Echo system
+// Echo system configuration
 // Timer fires every 100ms. ECHO_HISTORY = 60 slots = 6 seconds of replay data.
 // Ghost is always ECHO_DELAY_FRAMES ticks behind player (= 3 seconds).
 #define ECHO_HISTORY        60
@@ -80,18 +80,18 @@ typedef struct {
     uint32_t score;
     bool game_over;
 
-} asteroids_state_t;
+} paradox_drift_state_t;
 
 // Called once on game start
-void asteroids_init(asteroids_state_t *state);
+void paradox_drift_init(paradox_drift_state_t *state);
 
-// Called every 100ms from the hardware timer callback (same as snake_update was)
-void asteroids_update(asteroids_state_t *state);
+// Called every 100ms from the hardware timer callback
+void paradox_drift_update(paradox_drift_state_t *state);
 
 // Called from process_input() with dx/dy direction vector
-void asteroids_set_direction(asteroids_state_t *state, int8_t dx, int8_t dy);
+void paradox_drift_set_direction(paradox_drift_state_t *state, int8_t dx, int8_t dy);
 
-uint32_t asteroids_get_score(asteroids_state_t *state);
-bool     asteroids_is_game_over(asteroids_state_t *state);
+uint32_t paradox_drift_get_score(paradox_drift_state_t *state);
+bool     paradox_drift_is_game_over(paradox_drift_state_t *state);
 
-#endif // ASTEROIDS_GAME_H
+#endif // PARADOX_DRIFT_H

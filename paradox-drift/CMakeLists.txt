@@ -1,6 +1,6 @@
 add_executable(paradox-drift
     src/main.c
-    src/asteroids_game.c
+    src/paradox_drift.c
 )
 
 target_include_directories(paradox-drift PRIVATE
