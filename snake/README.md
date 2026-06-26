@@ -47,3 +47,10 @@ You can simulate this module directly in your browser using the provided Wokwi s
 1. Ensure the project is compiled.
 2. Open `diagram.json` in VS Code with the **Wokwi** extension.
 3. Press **Start Simulation** to run the logic directly inside the virtual RP2040 emulator.
+
+### Simulation Screenshots
+
+| Start Menu | Active Gameplay | Game Over Screen |
+| :---: | :---: | :---: |
+| ![Start Menu](../images/wokwi_snake_menu.png) | ![Gameplay](../images/wokwi_snake_gameplay.png) | ![Game Over](../images/wokwi_snake_gameover.png) |
+

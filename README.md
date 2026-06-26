@@ -22,15 +22,24 @@ It currently ships with two complete game implementations that showcase the fram
 
 ### In-Game Screenshots (Wokwi Simulator)
 
-| Game Start Menu | Active Gameplay | Game Over Screen |
+#### Snake Game
+| Start Menu | Active Gameplay | Game Over Screen |
 | :---: | :---: | :---: |
-| ![Start Menu](images/wokwi_menu.png) | ![Gameplay](images/wokwi_gameplay.png) | ![Game Over](images/wokwi_gameover.png) |
+| ![Start Menu](images/wokwi_snake_menu.png) | ![Gameplay](images/wokwi_snake_gameplay.png) | ![Game Over](images/wokwi_snake_gameover.png) |
+
+#### Paradox Drift (Time Echo)
+| Start Menu | Active Gameplay | Game Over Screen |
+| :---: | :---: | :---: |
+| ![Start Menu](images/wokwi_paradox_drift_menu.png) | ![Gameplay](images/wokwi_paradox_drift_gameplay.png) | ![Game Over](images/wokwi_paradox_drift_gameover.png) |
 
 ### Physical Hardware Demos (IRL)
 
-| Snake Gameplay | Snake Game Over | Paradox Drift Game Over |
+| Snake Gameplay | Snake Game Over (Normal) | Snake Game Over (Alternative) |
 | :---: | :---: | :---: |
-| ![Snake Gameplay](images/hardware_gameplay_snake.png) | ![Snake Game Over](images/hardware_gameover_snake.png) | ![Paradox Drift Game Over](images/hardware_gameover_paradox_drift.png) |
+| ![Snake Gameplay](images/hardware_gameplay_snake.png) | ![Snake Game Over](images/hardware_gameover_snake.png) | ![Snake Game Over Alt](images/hardware_gameover_snake_alt.png) |
+
+> [!NOTE]
+> Physical hardware demonstrations for Paradox Drift are coming soon.
 
 ---
 

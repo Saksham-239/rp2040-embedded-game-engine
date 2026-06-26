@@ -66,7 +66,8 @@ You can simulate this module directly in your browser using Wokwi:
 
 ### Simulation Screenshots
 
-| Start Menu | Active Gameplay |
-| :---: | :---: |
-| ![Start Menu](../images/wokwi_menu.png) | ![Gameplay](../images/wokwi_gameplay.png) |
+| Start Menu | Active Gameplay | Game Over Screen |
+| :---: | :---: | :---: |
+| ![Start Menu](../images/wokwi_paradox_drift_menu.png) | ![Gameplay](../images/wokwi_paradox_drift_gameplay.png) | ![Game Over](../images/wokwi_paradox_drift_gameover.png) |
+
 

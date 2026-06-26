@@ -59,8 +59,11 @@ The RP2040 internal pull-ups are enabled programmatically (see `common/input/inp
 
 ### Physical Hardware Demos (IRL)
 
-| Snake Gameplay | Snake Game Over | Paradox Drift Game Over |
+| Snake Gameplay | Snake Game Over (Normal) | Snake Game Over (Alternative) |
 | :---: | :---: | :---: |
-| ![Snake Gameplay](../images/hardware_gameplay_snake.png) | ![Snake Game Over](../images/hardware_gameover_snake.png) | ![Paradox Drift Game Over](../images/hardware_gameover_paradox_drift.png) |
+| ![Snake Gameplay](../images/hardware_gameplay_snake.png) | ![Snake Game Over](../images/hardware_gameover_snake.png) | ![Snake Game Over Alt](../images/hardware_gameover_snake_alt.png) |
+
+> [!NOTE]
+> Physical hardware demonstrations for Paradox Drift are coming soon.
 
 
